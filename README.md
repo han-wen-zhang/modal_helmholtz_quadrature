@@ -66,9 +66,7 @@ For $\mathrm{bm} > 2^0$ (well-separated regime), the integrand is smooth and a s
   ```
   where `xlist` and `wlist` are `real*8` arrays of length at least 118 supplied by the caller, and `nn` returns the actual node count.
 
-- `txt/quadNN.txt` (for `NN = 01,...,18`) — plain-text per-rule files. Each contains a header followed by lines `x_i  w_i` with full ~32-digit precision (preserved verbatim from the Fortran source). Suitable for any language.
-
-- `extract_txt.py` — script that produced the `txt/` files from `ggq_modal_helmholtz.f`.
+- `quadrature_tables/quadNN.txt` (for `NN = 01,...,18`) — plain-text per-rule files. Each contains a header followed by lines `x_i  w_i` with full ~32-digit precision (preserved verbatim from the Fortran source). Suitable for any language.
 
 ## Usage notes
 
