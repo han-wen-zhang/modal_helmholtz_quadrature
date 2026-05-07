@@ -13,7 +13,7 @@ c     This file contains 18 rules, load_quad1 through load_quad18,
 c     covering dyadic ranges of the near-singular parameter bm
 c     (denoted beta_- in the paper):
 c
-c       load_quad1:    bm in [2^-5 ,  2^0 ]
+c       load_quad1:    bm in [2^-5 ,  2^-1]
 c       load_quad2:    bm in [2^-10,  2^-5]
 c       ...
 c       load_quad18:   bm in [2^-90, 2^-85]   (~ 8e-28)
@@ -54,7 +54,7 @@ c     actual node count.  On exit, (xlist(i), wlist(i)) for
 c     i = 1, ..., nn are the nodes and weights on [0,1].  The runtime
 c     caller may rescale to [0, tau] for any tau > 0.
 c
-c     The well-separated regime (bm > 2^0) is not covered here; a
+c     The well-separated regime (bm > 2^-1) is not covered here; a
 c     standard Gauss-Legendre rule on [0,1] suffices in that case.
 c
 c     The rules were constructed using the nonlinear optimization

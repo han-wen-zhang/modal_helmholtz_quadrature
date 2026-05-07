@@ -24,7 +24,7 @@ The 18 tables cover dyadic ranges of $b_m$:
 
 | table | $b_m$ range         | nodes |
 |------:|---------------------|------:|
-| 1     | [2^-5,  2^0]        |    66 |
+| 1     | [2^-5,  2^-1]       |    66 |
 | 2     | [2^-10, 2^-5]       |    76 |
 | 3     | [2^-15, 2^-10]      |    78 |
 | 4     | [2^-20, 2^-15]      |    78 |
@@ -43,7 +43,7 @@ The 18 tables cover dyadic ranges of $b_m$:
 | 17    | [2^-85, 2^-80]      |   110 |
 | 18    | [2^-90, 2^-85]      |   118 |
 
-For $b_m > 2^0$ (well-separated regime), the integrand is smooth and a standard Gauss-Legendre rule on $[0,1]$ suffices; that case is not covered here.
+In the well-separated regime $b_m > 2^{-1}$, the integrand is smooth and a standard Gauss-Legendre rule on $[0,1]$ suffices; that case is not covered here.
 
 ## Files
 
