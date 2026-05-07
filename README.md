@@ -21,7 +21,7 @@ exactly for all polynomials $P_n$ of degree $n = 0, 1, \ldots, 63$. Here $b_m \g
 
 ## Coverage
 
-The 18 rules cover dyadic ranges of $\mathrm{bm}$:
+The 18 rules cover dyadic ranges of $b_m$:
 
 | rule | bm range            | nodes |
 |-----:|---------------------|------:|
