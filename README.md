@@ -12,24 +12,12 @@ $G_{k,m}(r,z,r',z')$ of the three-dimensional Helmholtz Green's function and the
 ## What the rules integrate
 
 Each rule is a quadrature on $[0,1]$ that integrates the five families
-```
-                                        1
-       integral_0  P_n(t) / sqrt(t^2 - 2 i bm) dt                              (1)
 
-                                        1
-       integral_0  P_n(t) / [ sqrt(t^2 - 2 i bm) (t^2 - i bm) ] dt             (2)
+$$\int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i\, b_m}}\, dt \qquad \int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i\, b_m}\, (t^2 - i\, b_m)}\, dt \qquad \int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i\, b_m}\, (t^2 - i\, b_m)^2}\, dt$$
 
-                                        1
-       integral_0  P_n(t) / [ sqrt(t^2 - 2 i bm) (t^2 - i bm)^2 ] dt           (3)
+$$\int_0^1 \frac{P_n(t)\, t^2 \sqrt{t^2 - 2 i\, b_m}}{t^2 - i\, b_m}\, dt \qquad \int_0^1 \frac{P_n(t)\, t^2 \sqrt{t^2 - 2 i\, b_m}}{(t^2 - i\, b_m)^2}\, dt$$
 
-                                        1
-       integral_0  P_n(t) sqrt(t^2 - 2 i bm) t^2 / (t^2 - i bm) dt             (4)
-
-                                        1
-       integral_0  P_n(t) sqrt(t^2 - 2 i bm) t^2 / (t^2 - i bm)^2 dt           (5)
-```
-exactly for all polynomials $P_n$ of degree $n = 0, 1, \ldots, 63$.
-Here $\mathrm{bm} \ge 0$ is the near-singular parameter (denoted $\beta_-$ in the paper).
+exactly for all polynomials $P_n$ of degree $n = 0, 1, \ldots, 63$. Here $b_m \ge 0$ is the near-singular parameter (denoted $\beta_-$ in the paper).
 
 ## Coverage
 
