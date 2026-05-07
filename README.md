@@ -60,7 +60,7 @@ For $\mathrm{bm} > 2^0$ (well-separated regime), the integrand is smooth and a s
 
 ## Files
 
-- `ggq_modal_helmholtz.f` — Fortran 77 source. Contains 18 subroutines `load_quad1` through `load_quad18`. Each is called as
+- `modal_helmholtz_quadrature.f` — Fortran 77 source. Contains 18 subroutines `load_quad1` through `load_quad18`. Each is called as
   ```fortran
         call load_quadk(xlist, wlist, nn)
   ```
