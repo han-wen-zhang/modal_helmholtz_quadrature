@@ -74,15 +74,6 @@ If you use these rules, please cite
 
 > H. Zhang, *Fast Evaluation of the Azimuthal Fourier Modes of the 3D Helmholtz Green's Function and Their Derivatives*, 2026.
 
-BibTeX:
-```bibtex
-@article{zhang2026modalhelmholtz,
-  author = {Zhang, Hanwen},
-  title  = {Fast Evaluation of the Azimuthal Fourier Modes of the 3{D} {H}elmholtz {G}reen's Function and Their Derivatives},
-  year   = {2026},
-}
-```
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
