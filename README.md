@@ -73,7 +73,3 @@ The reference implementation is at <https://github.com/JamesCBremerJr/GGQ>.
 If you use these rules, please cite
 
 > H. Zhang, *Fast Evaluation of the Azimuthal Fourier Modes of the 3D Helmholtz Green's Function and Their Derivatives*, 2026.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
