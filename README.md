@@ -10,11 +10,13 @@ The tables are designed for the near-singular integrand on the steepest-descent 
 
 ## What the tables integrate
 
-Each table is a quadrature on $[0,1]$ that integrates the five families
+Each table is a quadrature on $[0,1]$ that integrates the seven families
 
-$$\int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i b_m}} dt \qquad \int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i b_m} (t^2 - i b_m)} dt \qquad \int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i b_m} (t^2 - i b_m)^2} dt$$
+$$\int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i b_m}} dt \qquad \int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i b_m}\,(t^2 - i b_m)} dt \qquad \int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i b_m}\,(t^2 - i b_m)^2} dt$$
 
-$$\int_0^1 \frac{P_n(t) t^2 \sqrt{t^2 - 2 i b_m}}{t^2 - i b_m} dt \qquad \int_0^1 \frac{P_n(t) t^2 \sqrt{t^2 - 2 i b_m}}{(t^2 - i b_m)^2} dt$$
+$$\int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i b_m}\,(t^2 - i b_m)^3} dt \qquad \int_0^1 \frac{P_n(t)}{\sqrt{t^2 - 2 i b_m}\,(t^2 - i b_m)^4} dt$$
+
+$$\int_0^1 \frac{P_n(t)\,t^2 \sqrt{t^2 - 2 i b_m}}{t^2 - i b_m} dt \qquad \int_0^1 \frac{P_n(t)\,t^2 \sqrt{t^2 - 2 i b_m}}{(t^2 - i b_m)^2} dt$$
 
 exactly for all polynomials $P_n$ of degree $n = 0, 1, \ldots, 63$. Here $b_m \ge 0$ is the near-singular parameter (denoted $\beta_-$ in the paper).
 

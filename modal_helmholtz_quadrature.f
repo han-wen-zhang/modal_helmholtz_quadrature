@@ -19,14 +19,14 @@ c       ...
 c       load_quad18:   bm in [2^-90, 2^-85]   (~ 8e-28)
 c
 c     Each rule is a generalized Gaussian quadrature on [0,1] that
-c     integrates the five families
+c     integrates the seven families
 c
 c         /1
-c         |  P_n(t) / sqrt(t^2 - 2i bm) dt                 (1)
+c         |  P_n(t) / sqrt(t^2 - 2i bm) dt                     (1)
 c         0
 c
 c         /1
-c         |  P_n(t) / [ sqrt(t^2 - 2i bm) (t^2 - i bm) ] dt    (2)
+c         |  P_n(t) / [ sqrt(t^2 - 2i bm) (t^2 - i bm)   ] dt  (2)
 c         0
 c
 c         /1
@@ -34,15 +34,22 @@ c         |  P_n(t) / [ sqrt(t^2 - 2i bm) (t^2 - i bm)^2 ] dt  (3)
 c         0
 c
 c         /1
-c         |  P_n(t) sqrt(t^2 - 2i bm) t^2 / (t^2 - i bm) dt    (4)
+c         |  P_n(t) / [ sqrt(t^2 - 2i bm) (t^2 - i bm)^3 ] dt  (4)
 c         0
 c
 c         /1
-c         |  P_n(t) sqrt(t^2 - 2i bm) t^2 / (t^2 - i bm)^2 dt  (5)
+c         |  P_n(t) / [ sqrt(t^2 - 2i bm) (t^2 - i bm)^4 ] dt  (5)
+c         0
+c
+c         /1
+c         |  P_n(t) sqrt(t^2 - 2i bm) t^2 / (t^2 - i bm)   dt  (6)
+c         0
+c
+c         /1
+c         |  P_n(t) sqrt(t^2 - 2i bm) t^2 / (t^2 - i bm)^2 dt  (7)
 c         0
 c
 c     exactly for all polynomials P_n of degree n = 0, 1, ..., 63.
-c     Node counts per rule range from 66 to 118.
 c
 c     Each subroutine loads a single rule:
 c
